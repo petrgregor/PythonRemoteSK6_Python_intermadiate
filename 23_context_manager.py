@@ -7,10 +7,12 @@ class SpravceSouboru():
     def __enter__(self):
         # Zpřístupnění a sdílení zdrojů
         self.soubor = open(self.nazev_souboru, self.mod)
+        print(f"Soubor '{self.nazev_souboru}' byl úspěšně otevřen v modu '{self.mod}'")
         return self.soubor
 
     def __exit__(self, typ, hodnota, trasovani_chyby):
         # Čištění a uvolňování zdrojů
+        print(f"Soubor '{self.nazev_souboru}' byl uzavřen.")
         self.soubor.close()
 
 

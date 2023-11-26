@@ -1,0 +1,14 @@
+{
+  "students": [
+    {
+      "name": "Adam",
+      "surname": "Novák",
+      "points": 20
+    },
+    {
+      "name": "Anna",
+      "surname": "Rychlá",
+      "points": 17
+    }
+  ]
+}

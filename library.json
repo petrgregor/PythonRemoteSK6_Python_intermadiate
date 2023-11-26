@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "title": "Egypťan Sinuhet",
+      "author": "Mika Waltari",
+      "year": 2013,
+      "publisher": "Český klub",
+      "pages": 830
+    },
+    {
+      "title": "Hlava 22",
+      "author": "Joseph Heller",
+      "year": 2018,
+      "publisher": "Slovart (SK)",
+      "pages": 408
+    },
+    {
+      "title": "Malý princ",
+      "author": "Antoine de Saint-Exupéry",
+      "year": 2014,
+      "publisher": "Albatros",
+      "pages": 96
+    },
+    {
+      "title": "Tulák po hvězdách",
+      "author": "Jack London",
+      "year": 2001,
+      "publisher": "Labyrint",
+      "pages": 333
+    }
+  ]
+}

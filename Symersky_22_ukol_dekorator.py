@@ -3,7 +3,7 @@
 from datetime import datetime
 
 
-# TODO dekorátor pro výpis doby trvání dané funkce
+# dekorátor pro výpis doby trvání dané funkce
 def duration_time(function):
     start_time = datetime.now()
     def decorator(args):
@@ -24,7 +24,7 @@ def starter(func):
     return decorator
 
 
-# TODO funkce pro Fibonacci
+# funkce pro Fibonacci
 @duration_time
 @starter
 def fib(n):
@@ -39,7 +39,7 @@ print("Fibonacci")
 print(fib(15))
 
 
-# TODO funkce pro výpočet faktoriálu (rekurzivně)
+# funkce pro výpočet faktoriálu (rekurzivně)
 # fact(5) = 5*4*3*2*1
 # fact(5) = 5*fact(4)
 # fact(4) = 4*fact(3)

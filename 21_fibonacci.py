@@ -13,7 +13,6 @@ def fib_cache(function):
 
     return decorator
 
-
 @fib_cache
 def fib(n):
     if n == 1:

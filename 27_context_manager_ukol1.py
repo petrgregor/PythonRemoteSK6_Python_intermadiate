@@ -9,14 +9,14 @@ odečtěte aktuální čas od uloženého času (zmíněného dříve).
 import datetime
 import time
 from dataclasses import dataclass, field
-from io import TextIOWrapper
+from typing import TextIO
 
 
 @dataclass
 class MyContextManager:
     file_name: str
     mode: str
-    file: TextIOWrapper = field(init=False)
+    file: TextIO = field(init=False)
     start_time: datetime.datetime = field(init=False)
 
     def __enter__(self):

@@ -45,7 +45,10 @@ class PrvocislaIterator:
 
 
 iterator = PrvocislaIterator(1000000)
+print("První blok")
 for prvek in iterator:
+    if prvek > 100:
+        break
     print(prvek)
 
 """
@@ -56,3 +59,9 @@ n       vygenerovana_cisla      cislo
                          2          4
                          3          5
 """
+
+print("Druhý blok")
+for prvek in iterator:
+    if prvek > 200:
+        break
+    print(prvek)

@@ -68,3 +68,14 @@ print(f"Součet je:  {result}")
 # pomocí funkce reduce
 print(f"reduce:     {reduce(lambda x, y: x + y, my_list)}")
 
+# sorted, max, min
+pars = [(1, 10), (3, 9), (2, 8)]
+print(f"sorted:     {sorted(pars)}")
+print(f"sorted:     {sorted(pars, key=lambda x: x[1])}")
+print(f"min:        {min(pars)}")
+print(f"min:        {min(pars, key=lambda x: x[1])}")
+print(f"max:        {max(pars)}")
+print(f"max:        {max(pars, key=lambda x: x[1])}")
+
+print(f"max:        {max(pars, key=lambda x: x[0] + x[1])}")
+

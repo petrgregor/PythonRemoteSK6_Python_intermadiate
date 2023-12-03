@@ -50,11 +50,11 @@ if __name__ == "__main__":
 
     print("Jednovláknově:", timeit.timeit(stmt=jednovlaknove,
                                           setup=nastaveni,
-                                          number=100))
+                                          number=10))
     print("Vícevláknově:", timeit.timeit(stmt=vicevlaknove,
                                          setup=nastaveni,
-                                         number=100))
+                                         number=10))
     print("Paralelně:", timeit.timeit(stmt=paralelne,
                                       setup=nastaveni,
-                                      number=100))
+                                      number=10))
 
